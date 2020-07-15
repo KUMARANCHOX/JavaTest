@@ -15,6 +15,7 @@ public class AddController {
 		
 		int c= a+b;
 		
+		System.out.println("git trial proj");
 		ModelAndView mv = new ModelAndView();
 		mv.setViewName("result.jsp");
 		mv.addObject("result", c);
